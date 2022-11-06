@@ -20,7 +20,7 @@ from listings.views import listing_list, listing_retrieve
 urlpatterns = [
     path("admin/", admin.site.urls),
     path('', listing_list),
-    path('listing//<pk>/', listing_retrieve)
+    path('listing//<pk>/', listing_retrieve),
     path('add-listing', listing_create)
 ]
 #1:26:48
